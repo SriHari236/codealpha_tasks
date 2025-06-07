@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Hariharan | Web Developer</title>
+
+  <!-- Google Font for "Portfolio" -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Portfolio</div>
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<section class="hero" id="home">
+  <h1>Hello, I'm <span>Sri Hariharan</span></h1>
+  <p>Web Developer | MCA Graduate | Passionate Coder</p>
+  <a href="#projects" class="btn">Explore My Work</a>
+</section>
+
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>I am a Web Developer with expertise in HTML, CSS, JavaScript, Python, and MySQL. I'm passionate about building responsive and user-friendly web applications. I bring creativity, strong fundamentals, and hands-on internship experience.</p>
+</section>
+
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Fuel Delivery Management System</h3>
+      <p>HTML, CSS, JS, PHP, MySQL</p>
+      <p>Fuel ordering, real-time tracking, and secure payments with a responsive UI.</p>
+    </div>
+    <div class="project-card">
+      <h3>E-Commerce Website</h3>
+      <p>HTML, CSS, JS, MySQL</p>
+      <p>Secure login, shopping cart, and optimized browsing experience.</p>
+    </div>
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <h2>Internship Experience</h2>
+  <div class="experience-grid">
+    <div>
+      <h3>Infotact Solutions</h3>
+      <p>Web Development Intern (May 2025 - Aug 2025)</p>
+      <p>Built live websites, fixed bugs, wrote clean code, and participated in project delivery.</p>
+    </div>
+    <div>
+      <h3>Pinnacle Labs</h3>
+      <p>Web Development Intern (May 2025 - June 2025)</p>
+      <p>Hands-on coding, structured learning, and video-based project completion.</p>
+    </div>
+    <div>
+      <h3>CodeAlpha</h3>
+      <p>Frontend Development Intern (June 2025)</p>
+      <p>Applied frontend concepts in real-world tasks with modern tools and techniques.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p><strong>Email:</strong> <a href="mailto:srihari18122002@gmail.com">srihari18122002@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+916379583646">+91 6379583646</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/srihari1812" target="_blank">linkedin.com/in/srihari1812</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sri Hariharan. All rights reserved.</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navMenu');
+    nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+
+</body>
+</html>
